@@ -44,9 +44,9 @@ Provide a list of coordinate points as input. The points should be a list/tuple 
 from microtime_hotspots import MTHS
 
 points = [(0, 0), (1, 1), (2, 2), (3, 3)]
-mths_instance = MTHS(points, events=3, radius=1000)
-mths = mths_instance.process()
-print(mths)
+mths_instance = MTHS(points, events=2, radius=1)
+mths_instance.process()
+print(mths_instance.mths)
 ```
 
 If you have a dataframe or geodataframe with x and y, you may supply the points as seen here. The class will convert them to Shapely Points.
