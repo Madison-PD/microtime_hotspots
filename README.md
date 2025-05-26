@@ -63,4 +63,6 @@ And explore the results on a map
 mths_gdf.explore()
 ```
 
+![alt text](mths_example.PNG)
+![Alt text](/mths_example.PNG)
 ([mths_example.PNG](https://github.com/Madison-PD/microtime_hotspots/blob/main/mhts_example.PNG))
