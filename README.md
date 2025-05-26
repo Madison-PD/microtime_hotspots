@@ -33,9 +33,11 @@ python setup.py install
 ```
 
 ## Dependencies
-Shapely >= 2.0.0
-GEOS >= 3.8
-NumPy >= 1.26.4
+<ul>
+  <li>Shapely >= 2.0.0</li>
+  <li>GEOS >= 3.8</li>
+  <li>NumPy >= 1.26.4</li>
+</ul>
 
 
 ## Usage
