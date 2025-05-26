@@ -54,7 +54,7 @@ If you have a dataframe or geodataframe with x and y, you may supply the points 
 points = [x for x in zip(df['x'], df['y'])]
 ```
 
-If GeoPandas is install, you can easily view a geodataframe of any resulting MTHS (be sure to set the CRS for your data)
+If GeoPandas is installed, you can easily view a geodataframe of any resulting MTHS (be sure to set the CRS for your data)
 ```python
 mths_gdf = gpd.GeoDataFrame(pd.DataFrame(mths.mths), geometry=pd.DataFrame(mths.mths)['geometry'], crs='EPSG:8193')
 ```
