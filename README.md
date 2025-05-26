@@ -62,3 +62,5 @@ And explore the results on a map
 ```python
 mths_gdf.explore()
 ```
+
+(mths_example.PNG)
