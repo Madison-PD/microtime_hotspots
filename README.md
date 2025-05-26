@@ -18,13 +18,7 @@ For this package, it is assumed that the user has gathered crime data with corre
 
 ## Installation
 
-Install the package via pip:
-
-```
-pip install mths_package
-```
-
-or from source:
+Install the package from source:
 
 ```
 git clone https://github.com/yourusername/mths_package.git
