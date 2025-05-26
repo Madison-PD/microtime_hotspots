@@ -1,4 +1,4 @@
-# MTHS Package
+# Micro-Time Hotspot Identification
 
 A Python package for identifying Micro-Time Hot Spots (MTHS) using Shapely and other Python libraries.
 
@@ -18,13 +18,16 @@ cd mths_package
 python setup.py install
 ```
 
+## Dependencies
+
+
 ## Usage
 
 ```python
-from mths.mths import MTHS
+from microtime_hotspots import MTHS
 
-points = [(0, 0), (1, 1), (2, 2)]
-mths_instance = MTHS(points)
-circles = mths_instance.process()
-print(circles)
+points = [(0, 0), (1, 1), (2, 2), (3, 3)]
+mths_instance = MTHS(points, events=3, radius=1000)
+mths = mths_instance.process()
+print(mths)
 ```
